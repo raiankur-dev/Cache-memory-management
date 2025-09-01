@@ -5,37 +5,37 @@ This project implements a cache memory manager using Splay Trees to simulate how
 
 ✨ Features
 
-OS-level Simulation: Models how cache memory improves data access speed in constrained environments.
+>> OS-level Simulation: Models how cache memory improves data access speed in constrained environments.
 
-LRU Eviction: Implements a Least Recently Used (LRU) policy to manage limited cache capacity.
+>> LRU Eviction: Implements a Least Recently Used (LRU) policy to manage limited cache capacity.
 
-Splay Tree Optimization: Uses self-adjusting binary search trees for faster lookups, insertions, and deletions.
+>> Splay Tree Optimization: Uses self-adjusting binary search trees for faster lookups, insertions, and deletions.
 
-Thread-Safe Design: Employs multithreading, mutex locks, and condition variables to ensure correctness under concurrent access.
+>> Thread-Safe Design: Employs multithreading, mutex locks, and condition variables to ensure correctness under concurrent access.
 
 🛠️ Technologies Used
 
-C++ (Data structures, Multithreading)
+1.) C++ (Data structures, Multithreading)
 
-Splay Trees (Self-adjusting search trees)
+2.) Splay Trees (Self-adjusting search trees)
 
-Mutex & Condition Variables (Concurrency control)
+3.) Mutex & Condition Variables (Concurrency control)
 
 🚀 How to Run
 
-Clone the repository:
+>> Clone the repository:
 
 git clone https://github.com/yourusername/cache-memory-management.git
 cd cache-memory-management
 
 
-Compile and run the single-threaded version:
+>> Compile and run the single-threaded version:
 
 g++ Memory\ amangemnt\ using\ splay\ tress.cpp -o cache
 ./cache
 
 
-Compile and run the multi-threaded version:
+>> Compile and run the multi-threaded version:
 
 g++ CMM_Multithread_mutex.cpp -o cache_mt -pthread
 ./cache_mt
@@ -51,11 +51,11 @@ Enter the capacity of the cache: 3
 
 Multi-threaded
 
-Thread 1 inserts multiple key-value pairs.
+1.) Thread 1 inserts multiple key-value pairs.
 
-Thread 2 inserts additional pairs concurrently.
+2.) Thread 2 inserts additional pairs concurrently.
 
-The final cache contents are printed after synchronization.
+3.) The final cache contents are printed after synchronization.
 
 🎯 Learning Outcomes
 
